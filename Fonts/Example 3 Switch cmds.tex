@@ -1,0 +1,19 @@
+% LaTeX also provides commands without arguments, which work like switches.
+
+\documentclass{article}
+
+\begin{document}
+\sffamily\bfseries Get help on the Internet
+
+\normalfont\ttfamily https://latex.org/normalfont is a support forum for \LaTeX.
+\end{document}
+
+% By using the \sffamily command, we switched to the sans-serif typeface. The  
+% \bfseries command switched the text to bold. We used the \normalfont command 
+% to return to the default LaTeX font, and then we used the \ttfamily command to 
+% switch to a typewriter font. After the internet address, we used \normalfont again to 
+% switch to the default font.
+
+% Such switching commands don't produce any output themselves, but they will affect the 
+% text that follows it, so they are declarations.
+% remember: declarations are cmds that only change properties
