@@ -1,0 +1,15 @@
+\documentclass{article}
+
+% Custom command \INTR with one optional argument and one mandatory argument.
+% #1 = age (optional), defaults to 18 if not provided.
+% #2 = name (mandatory).
+\newcommand{\INTR}[2][18]{\ttfamily My name is #2, I'm #1 years old.}
+
+\begin{document}
+\INTR{Moamen} \\ % My name is Moamen, I’m 18.
+\INTR[31]{Hadiq} % My name is Hadiq, I’m 31.
+\end{document}
+
+\newcommand{command}[arguments][optional]{definition}
+
+Remember: [] for optional and {} for mandatory args
