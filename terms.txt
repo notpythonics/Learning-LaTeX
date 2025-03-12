@@ -1,14 +1,14 @@
-why is there a space before a line of text?
+- Why is there a space before a line of text?
 Indenting refers to the practice of creating a space at the beginning of a line or paragraph, typically to indicate a new paragraph or to format text.
 \noindent
 
 
-why is there a blank page?
+- Why is there a blank page?
 Traditionally and commnly, chapters start on odd-numbered pages (right-hand pages) in printed books.
 To achive this, LaTeX inserts a blank even-numbered page (left-hand pages), so the next chapter can start on an odd-numbered page.
 
 
-why are the margins different on the second page?
+- Why are the margins different on the second page?
 Because when two pages are bound togther they need a free space to glue togther without covering text.
 Search on Goggle pic "inner and outer margins".
 \usepackage[a4paper, innter=1.5cm, outer=3cm, top=2cm, bottom=3cm, bindingoffset=0.5cm]{geometry}
